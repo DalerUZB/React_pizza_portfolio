@@ -14,14 +14,13 @@ const ContentTop = ({ things, popupItems }) => {
         console.log(`shu ${index} songa ega bosildi `);
     }
     const PopupItems = (index) => {
+        
         setChangeThisPopupColor(index);
         setPopupiSItOpen(false)
     }
 
     const PopupOpened = () => {
         setPopupiSItOpen(!popupiSItOpen)
-
-
     }
     const PopupResults = popupItems[ChangeThisPopupColor]
 

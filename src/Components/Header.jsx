@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-import PizzaLogo from "../img/pizza-logo.svg"
+import PizzaLogo from "../assets/pizza-logo.svg"
 
 const Header = () => {
     return (
